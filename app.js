@@ -16,10 +16,10 @@ const upload = multer({storage: storage});
 
 // Create MySQL connectionnp
 const connection = mysql.createConnection({
-host: 'localhost',
-user: 'root',
-password: '',
-database: 'c237_foodorderapp'
+host: 'mysql-jayden.alwaysdata.net',
+user: 'jayden',
+password: 'Ineedwifi94',
+database: 'jayden_foodorderapp'
 });
 connection.connect((err) => {
 if (err) {
